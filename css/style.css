@@ -11,3 +11,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(156, 22, 96) ;
 }
+
+h1{
+text-align: center;
+color: red;
+}
+
+h2{
+font-family: cursive;
+color: green;
+}
+
+p{
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
+
+a:hover {
+    color: red; /* Красный цвет при наведении */
+    text-decoration: underline; /* Подчеркивание */
+}
+
+a:visited {
+    color: rgb(9, 230, 64); /* зеленый цвет для посещённых ссылок */
+}
