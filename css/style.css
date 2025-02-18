@@ -46,3 +46,38 @@ a:visited {
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px; 
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card figcaption {
+    color: #555;
+}
