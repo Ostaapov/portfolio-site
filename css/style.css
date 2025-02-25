@@ -47,6 +47,9 @@ a:visited {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* контейнер для изображений */
+
+
 .card-container {
     display: flex;
     gap: 20px;
@@ -80,4 +83,15 @@ a:visited {
 
 .card figcaption {
     color: #555;
+}
+
+/* контейнер для изображений */
+
+.pos{
+    position:fixed;
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
 }
