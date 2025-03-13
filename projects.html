@@ -11,19 +11,22 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="img/logo.png" alt="Логотип" class="logo">
-        <h1  id="colorid">Просто сайт обо мне</h1>
-        <button aria-label="Открыть меню" class="menu-toggle">&#9776;</button>
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="#about">Обо мне</a></li>
-                <li><a href="gallery.html">Галерея</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-                <li><a href="#projects">Проекты</a></li>
-            </ul>
-        </nav>
+    <div class="content">
+    <header>
+        <div class="header">
+            <img src="img/logo.png" alt="Логотип" class="logo">
+            <h1 id="colorid">Просто сайт обо мне</h1>
+            <button aria-label="Открыть меню" class="menu-toggle">&#9776;</button>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="conteiner">
         <section class="projects-container">
@@ -33,14 +36,14 @@
                 <p>Описание проекта 1.</p>
                 <a href="#">Подробнее</a>
             </div>
-        
+
             <div class="project-card">
                 <img src="https://via.placeholder.com/300" alt="Проект 2">
                 <h3>Проект 2</h3>
                 <p>Описание проекта 2.</p>
                 <a href="#">Подробнее</a>
             </div>
-        
+
             <div class="project-card">
                 <img src="https://via.placeholder.com/300" alt="Проект 3">
                 <h3>Проект 3</h3>
@@ -49,7 +52,8 @@
             </div>
         </section>
     </main>
-    <footer>
+</div>
+    <footer class="footer">
         <p>&copy; 2025 Все права защищены.</p>
         <p>Связь со мной: <a href="mailto:ostapov.nero@yandex.ru">ostapov.nero@yandex.ru</a></p>
         <p>Звони: <a href="tel:8(980)375-92-55">8(980)375-92-55</a></p>
