@@ -71,3 +71,42 @@ console.log(typeof str);
 console.log(typeof x1);
 console.log(typeof arr3);
 console.log(typeof obj3);
+
+//операторы
+
+//1
+let s1 = "Андрей";
+let s2 = "Лопатин";
+
+let sum = s1 + " " + s2;
+
+console.log(sum);
+
+
+//2
+
+let perem = 8;
+
+if (typeof perem === "number" || typeof perem === "string"){
+    console.log("Переменная является числом или строкой");
+} else {
+    console.log("Переменная не является числом или строкой");
+}
+
+//3
+let name1 = "Андрей";
+let age = 27;
+let string1 = `Привет, меня зовут ${name1}, мне ${age} лет`;
+
+console.log(string1);
+
+
+//4
+
+let x4 = 5;
+let x5 = "56";
+
+let sum5 = x4 + Number(x5);
+
+console.log(sum5);
+
