@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+</head>
+<body>
+  <button id="Btn">Загрузить модуль и выполнить</button>
+
+  <script type="module">
+    const button = document.getElementById('Btn');
+
+    button.addEventListener('click', async () => {
+      try {
+        const module = await import('./calculator.js');
+        const result = module.sum(5, 3);
+        alert(`Результат: ${result}`);
+      } catch (error) {
+        console.error('Ошибка загрузки модуля:', error); //хз почему не работает
+      }
+    });
+  </script>
+</body>
+</html>

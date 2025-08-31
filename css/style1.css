@@ -1,0 +1,13 @@
+.h1 {
+    position: relative;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.button {
+    position: relative;
+    margin: 40px;
+    border: 2px solid rgb(182, 21, 21);
+    padding: 10px;
+}
